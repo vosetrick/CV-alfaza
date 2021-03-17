@@ -3,28 +3,92 @@
     <head>
         <title>Curriculum Vitae Alfaza Ranggana</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,inital-scale=1.0">
         <style>
-            #body {
-                text-align: justify;
+            #judul{
+                margin: auto;
+                text-align: center;
+            }
+            #foto-alfaza {
+                display: block;
+                width: 240px;
+                height: 240px;
                 margin-left: auto;
                 margin-right: auto;
             }
-            #foto-alfaza {
-                width: 240px;
-                height: 240px;
+            .bagian {
+                margin-left: 40%;
+                width: 20%;
+            }
+            .header {
+                text-align: center;
+                border: dotted green 2px;
+                padding: 3px;
+            }
+            .paragraf {
+                text-align: justify;
+                color: white;
+            }
+            strike {
+                background-color: yellow;
+                color: black;
+            }
+            body {
+                background-image: linear-gradient(to bottom right, purple, aqua);
+            }
+            #quotes {
+                color:darksalmon;
             }
         </style>
     </head>
 
-    <body id="body">
+    <body>
         <div id="judul">
             <h1>Alfaza Ranggana</h1>
             <img id="foto-alfaza" src="2017730052.jpg" alt="Foto Alfaza">
         </div>
+        <br><br>
 
-        <div id="profil">
-            <h2>Profil Singkat</h2>
-            <p>ini adalah paragraf</p>
+        <div class="bagian">
+            <h2 class="header">Profil Singkat</h2>
+            <p class="paragraf">
+                Halo semua perkenalkan nama saya adalah Alfaza, kalian bisa panggil
+                saya dengan Mas Al. <em>Saya kuliah di Informatika UNPAR </em>dan sekarang
+                sudah menginjak di semester 8. Saya sudah berpengalaman dalam membuat web kurang lebih
+                selama 3 tahun, salah satu website yang belakangan ini baru dibuat adalah website Ted X UNPAR.
+                Selain kegiatan di kampus, saya juga aktif dalam bidang organisasi seni peran selama kurang lebih
+                8 tahun.
+            </p>
         </div>
+
+        <div class="bagian">
+            <h2 class="header">Pengalaman Organisasi</h2>
+            <ol class="paragraf">
+                <li>Ketua Kabaret SMA</li>
+                <li>Pelatih Kabaret SMP</li>
+                <li>Ketua Studi Banding 2019 Informatika UNPAR</li>
+                <li>Koordinator Divisi Penelitian dan Pengembangan Himpunan Program Studi Teknik Informatika UNPAR</li>
+            </ol>
+        </div>
+
+        <div class="bagian">
+            <h2 class="header">Biografi</h2>
+            <p class="paragraf">
+                Alfaza lahir pada tanggal 25 Januari 1990 di Rumah Sakit <strike>Santoso</strike> Boromeus.
+            </p>
+        </div>
+
+        <div class="bagian">
+            <h2 class="header">Motto Hidup</h2>
+            <figure id="quotes">
+                <blockquote>
+                    <i>Whatever you are, be a good one.</i>
+                </blockquote>
+                <figcaption>
+                    &mdash; Abraham Lincoln
+                </figcaption>
+            </figure>
+        </div>
+
     </body>
 </html>
